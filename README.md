@@ -3,7 +3,7 @@
 An extremely quick prototype to demonstrate the possible optimization of avoiding unnecessary
 rebuilds of dependent crates.
 
-~~WARNING~~: This technique does no checking whatsoever on whether the optimization
+**WARNING**: This technique does no checking whatsoever on whether the optimization
 is safe to perform. Subtle changes can cause a rebuild to be necessary, so expect to see segfaults or worse.
 
 Tested on Rust 1.81 on Linux.
