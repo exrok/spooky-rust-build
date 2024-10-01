@@ -1,0 +1,7 @@
+[package]
+name = "spooky-rust-build"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+jsony = "0.0.1"
